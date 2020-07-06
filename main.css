@@ -1,0 +1,15 @@
+h1{
+    color: red;
+}
+
+@media only screen and (min-width: 640px){
+    h1 {
+        color: blue;
+    }
+}
+
+@media only screen and (min-width: 960px){
+    h1{
+        color:green;
+    }
+}

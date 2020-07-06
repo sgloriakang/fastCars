@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h2>Challenge #1 Form</h2>
+    <form action= "/action_page.php">
+      
+        <label>Full Name</label><br>
+        <input type="text" name="name" placeholder="First Name" autofocus required>
+        <br>
+        <label form>Comment</label><br>
+        <textarea name="Comment" placeholder= "Tell us" required></textarea>
+        <br>
+        <label form>Date</label><br>
+        <input type="date" name="date" required>
+        <br>
+        <label>Colors</label><br>
+        <input list="Colors" name="colors" placeholder="Select a color">
+        <datalist id="Colors">
+            <option value="orange"></option>
+            <option value="black"></option>
+            <option value="pink"></option>
+        </datalist>
+        <br><br>
+        <input type="submit" value="Submit">
+
+     </form>
+
+</body>
+</html>
